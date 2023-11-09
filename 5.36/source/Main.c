@@ -9,7 +9,7 @@ int main()
 	printf("Enter the number of disks¡G");
 	scanf("%d", &n);
 
-	TowerOfHanoi(n, 'a', 'b', 'c');
+	TowerOfHanoi(n, '1', '2', '3');
 
 	return 0;
 }
